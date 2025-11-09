@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function square(aNam,bNam){
+        const result=aNam*bNam;
+        return result;
+    }
+    let h1= square(5,2);
+    console.log(h1);
+
+    function roundSquare(radius){
+        const result= Math.PI *radius*radius;
+        return result;
+    }
+    let h2=roundSquare(10);
+    console.log(h2)
+
+     function SqCil(rad, height){
+        const result=2 * 13.14* rad * height;
+        return result;
+     }
+     let h3=SqCil(5,20)
+     console.log (h3);
+
+    function Footbar(arrey){
+        for (const item of arrey) {
+            console.log(item)
+
+        }
+    }
+    function par(tex){
+
+        document.write(`<p>${tex}</p>`
+        )
+
+    }
+    par('Lorem');
+    par('silver');
+    par('medium');
+    par('medium soft');
+
+    function spusok( lih){
+        document.write(`<ul>
+<li>${lih}</li>
+<li>${lih}</li>
+<li>${lih}</li>
+
+</ul>`);
+    }
+    spusok('wanderful')
+// debugger;
+    function spusok2( lih,okten){
+        document.write(`<ul>`);
+        for(let i=0; i<okten; i++){
+            document.write(`<li>${lih}</li>`);
+        }
+        document.write(`</ul>`);
+    }
+    spusok2('it s a wonderful day',100)
+     let list=['hello',125,'falsefication',true,1255 ]
+
+    function foobar(arreyOf){
+        document.write(`<ul>`)
+        for (const item of arreyOf) {
+            document.write(`<li>${item}</li>`);
+
+        }
+        document.write(`</ul>`);
+    }
+    foobar(['hello',125,'falsefication',true,1255])
+
+
+    function fructs(users){
+        for (const user of users) {
+            document.write(`<div>${user.id}${user.name}${user.age}</div>`);
+        }
+    }
+    fructs([
+        {id:1,name:'Kokos',age:124},
+        {id:2,name:'Banana',age:124},
+        {id:3,name:'Pich',age:124},
+        {id:4,name:'Ananas',age:124},
+        {id:5,name:'Grape',age:124}
+    ])
+// function minValue(numbers){
+//         let min=numbers[0];
+//     for (let i = 1; i < numbers.length; i++) {
+//         let number=numbers[i];
+//         if(number<min){
+//             min=number
+//         }
+//
+//     }
+//         return min;
+// }
+//
+// console.log(minValue([99,15,-153,-20,10,15]));
+
+
+    function sum(arr) {
+        let basket=0;
+        for (const item of arr) {
+            basket=basket+item;
+        }
+return basket;
+    }
+    console.log(sum([11,20,12]))
+
+
+
+    function swap(arr,i1,i2){
+        let temp=arr[i1];
+        arr[i1]=arr[i2];
+        arr[i2]=temp;
+        return arr;
+    }
+    console.log(swap([11,22,33,44],0,1));
+</script>
+
+</body>
+</html>

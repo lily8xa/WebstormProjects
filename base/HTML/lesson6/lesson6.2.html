@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        button{
+            height: 30px;
+            width: 80px;
+            color: #ff7878;
+            background-color: darkred;
+        }
+        button:hover{
+            background-color: orange;
+            color: #000;
+        }
+        button:active{
+            background-color: #141461;
+            color: #fff;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a:link{
+            color: orange;
+        }
+        a:visited{
+            color: #151540;
+        }
+        li::selection{
+            background-color: #0d0d5c;
+            color: #f6f09f;
+        }
+         main ul li::before{
+            content: " ";
+            width: 20px;
+            height: 20px;
+            background-image: url("imd/icon.png");
+            background-size: cover;
+            display: inline-block;
+            margin: 10px;
+        }
+         main>ul>li::after{
+             content: "ok";
+             color: #6dd1ef;
+         }
+        
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="https://github.com/OktenSchool/html/blob/main/homework-task/Lesson%206/hw_6.1.png">hold</a></li>
+        <li><a href="https://cssgradient.io/">none</a></li>
+        <li><a href="https://fonts.google.com/">wow</a></li>
+        <li><a href="#https://fonts.google.com/">eeaa</a></li>
+    </ul>
+    <button>open</button>
+</nav>
+<main>
+    <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias asperiores blanditiis consequuntur cupiditate eaque illo incidunt inventore, itaque modi nobis placeat porro quia quibusdam repellendus, saepe sint veniam voluptatibus!</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias asperiores blanditiis consequuntur cupiditate eaque illo incidunt inventore, itaque modi nobis placeat porro quia quibusdam repellendus, saepe sint veniam voluptatibus!</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias asperiores blanditiis consequuntur cupiditate eaque illo incidunt inventore, itaque modi nobis placeat porro quia quibusdam repellendus, saepe sint veniam voluptatibus!</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias asperiores blanditiis consequuntur cupiditate eaque illo incidunt inventore, itaque modi nobis placeat porro quia quibusdam repellendus, saepe sint veniam voluptatibus!</li>
+    </ul>
+</main>
+</body>
+</html>

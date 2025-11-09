@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bol{
+            height: 30px;
+            animation:bol 2s  infinite  ;
+        }
+        .man{
+            animation: man 2s linear infinite  ;
+        }
+        @keyframes bol{
+            from{
+                transform: translate(-600px,-100px);
+            }
+            20% {
+                transform: translate(-400px,-120px);
+            }
+            40%{
+                transform: translate(-100px,-130px);
+            }
+            60%{
+                transform: translate(100px,-120px);
+            }
+            80%{
+                transform: translate(150px,-110px);
+            }
+            90%{
+                transform: translate(300px,-110px);
+            }
+            to{
+                transform: translate(350px,-110px) scale(-0.9);
+            }
+
+        }
+        @keyframes man{
+            from{
+                transform: translate(10px,-10px);
+            }
+            40%{
+                transform: translate(50px,-20px);
+            }
+            60%{
+                transform: translate(100px,0px);
+            }
+            80%{
+                transform: translate(150px,-15px);
+            }
+            90%{
+                transform: translate(200px,10px);
+            }
+            to{
+                transform: translate(250px,-10px)skew(-5deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <img class="bol" src="img/bollll.png." alt="">
+    <img class="man" src="img/snovmen.png" alt="">
+</div>
+
+</body>
+</html>

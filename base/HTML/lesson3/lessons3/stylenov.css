@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+nav ul a{
+    color: #ea2121;
+}
+#section-home{
+    background: chartreuse;
+}
+#section-about{
+    background: #3c6711;
+}
+#section-info{
+    background: #2d4217;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

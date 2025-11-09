@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrap{
+            width: 40px;
+            height: 120px;
+            background: blue;
+            color: yellow;
+        }
+        .collapse{
+            width: 30px;
+            height: 100px;
+            background: cyan;
+            color: #f37b53;
+        }
+        .alpha{
+            width: 45px;
+            height: 80px;
+            background: darkred;
+            color: pink;
+        }
+        .beta{
+            width: 45px;
+            height: 60px;
+            background: darkblue;
+            color:lightseagreen;
+        }
+        .block{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+<script>
+    let block=document.createElement('div')
+    document.body.appendChild(block)
+    block.innerText='oh boy'
+    block.classList.add('wrap')
+    block.classList.add('collapse')
+    block.classList.add('alpha')
+    block.classList.add('beta')
+    const cloneNode=block.cloneNode(true)
+    document.body.append(block,cloneNode)
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let string='hello world'
+    console.log(string.length);
+    console.log(string.toUpperCase());
+    let string1='lorem ipsunsun'
+    console.log(string1.toUpperCase())
+    console.log(string1.length);
+    let string2='javascript is cool'
+    console.log(string2.toUpperCase())
+    console.log(string2.length);
+
+    let str1='HELLO WORLD'
+    let str2='LOREM IPSUM'
+    let str3='JAVASCRIPT IS COOL'
+    console.log(str1.toLowerCase());
+    console.log(str2.toLowerCase());
+    console.log(str3.toLowerCase());
+
+    function stringToArray(str){
+        if(str){
+            let split=str.split(' ');
+            return split;
+        }
+        return[' ']
+    }
+    console.log(stringToArray('Ревуть воли як ясла повні'));
+
+
+     const numbers= [10,8,-7,55,987,true,'hi',-1011,0,1050,0];
+     const strings=numbers.map(number=>number+'');
+     console.log(strings);
+
+
+</script>
+
+</body>
+</html>

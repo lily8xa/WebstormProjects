@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    const arr=['‘Main’','’Products’','’About us’','’Contacts’'];
+    const menuUl=document.createElement("ul")
+
+
+    for (const item of arr) {
+       let li=document.createElement('li');
+       li.classList.add('mainMenu')
+        li.innerText=item;
+       menuUl.appendChild(li);
+
+    }
+    document.body.appendChild(menuUl);
+</script>
+
+</body>
+</html>

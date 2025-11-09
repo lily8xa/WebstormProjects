@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+        body{
+            height: 100vh;
+            margin: 0;
+            background: lightseagreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Noto Sans Mono", monospace;
+            font-weight: 200;
+        }
+        body>div{
+            display: flex;
+            justify-content:center;
+            align-items:flex-start;
+            height: 350px;
+            width: 550px;
+            background: white;
+            border-radius: 10px;
+        }
+        .form-reg{
+
+        }
+        body div h2{
+            height: 10vh;
+            width: 550px;
+            background: rgba(32, 178, 170, 0.25);
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            font-weight: 400;
+        }
+        input[type="text"], input[type="password"]{
+            margin: 15px;
+            width: 350px;
+            height: 25px;
+            margin-left: 90px;
+        }
+        .enter{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 350px;
+            margin-left: 90px;
+            margin-top: 30px;
+        }
+        input[type="submit"]{
+            width: 90px;
+            height: 25px;
+            border-radius: 10px;
+            border: 1px solid grey;
+            background:rgba(32, 178, 170, 0.25) ;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <div class="form-reg">
+        <div>
+             <h2>Вхід в особистий кабінет</h2>
+        </div>
+        <form>
+            <input type="text" name="login" placeholder="Логін або email">
+            <input type="password" name="password" placeholder="пароль">
+            <div class="enter">
+                <Label>Запам'ятати мене
+                    <input type="checkbox" name="remember_my">
+                </Label>
+            <input type="submit" value="Вхід">
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <style>
+        label{
+            display: block;
+        }
+        sup{
+            color: #ea2121;
+        }
+        textarea{
+            resize: none;
+        }
+        .form-register{
+            border: 3px solid orange;
+            width: 30%;
+            border-radius: 20px;
+            padding: 50px;
+        }
+        input[type=text]{
+            border: 1px solid #ddd947;
+            background: cyan;
+            color: #141461;
+        }
+        input[type=text]::placeholder{
+            color: #ddd947;
+        }
+        input[type=text]:focus {
+            border: 5px solid #6e6ee8;
+        }
+        .chek{
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #757327;
+            margin-bottom: -5px;
+            border-radius: 20px;
+        }
+        .chek:checked{
+            background-image:url("imd/icon.png");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+<form class="form-register">
+    <label for="name">введіть ім'я</label>
+    <input type="text" name="name" id="name" placeholder="Anna" required><sup>*</sup>
+    <form class="mail"><
+    <label for="mail">введіть емейл</label>
+    <input type="email" name="mail" id="mail" placeholder="Anna@gmail.com" required><sup>*</sup>
+
+    <form class="password">
+    <label for="password">введіть пароль</label>
+    <input type="password" name="password" id="password" placeholder="" required><sup>*</sup>
+
+    <form class="age">
+    <label for="age">введіть вік</label>
+    <input type="number" name="mail" id="age" placeholder="18" min="18" max="130">
+
+    <label>Стать</label>
+    <label>
+        <input type="radio" class="chek" name="gender" value="male">жіноча
+        <input type="radio" class="chek" name="gender" value="female">чоловіча
+
+    </label>
+    <label>
+        <input type="checkbox" class="chek" name="newsletter">підпишись на новини
+    </label>
+
+    <label for="kantry">Країна</label>
+    <select name="" id="kantry">
+        <option value=""></option>
+        <option value="uk">Україна</option>
+        <option value="usa">Сполучені Штати Америки</option>
+        <option value="ka">Канада</option>
+        <option value="mex">Мексика</option>
+    </select>
+
+    <label for="phone"></label>
+    <select id="phone">
+        <optgroup label="Apple">
+            <option value="15">Apple 15</option>
+            <option value="16">Apple 16</option>
+            <option value="17pro">Apple 17pro</option>
+            <option value="x">Apple X</option>
+        </optgroup>
+        <optgroup label="Apple">
+            <option value="15">Apple 15</option>
+            <option value="16">Apple 16</option>
+            <option value="17pro">Apple 17pro</option>
+            <option value="x">Apple X</option>
+        </optgroup>
+    </select>
+
+    <label for="coment">komentar</label>
+    <textarea id="coment" cols="50" rows="5"></textarea>
+
+    <div>
+        <input type="submit" value="send">
+        <input type="reset" value="Cleer">
+    </div>
+</form>
+        
+</body>
+</html>
