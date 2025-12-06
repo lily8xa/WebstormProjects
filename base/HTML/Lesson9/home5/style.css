@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: 4.5vh 40vh 34vh 10vh 11.5vh;
+    grid-template-areas:
+            'nav nav'
+    'main top-aside'
+   'main bottom-aside'
+            'footer footer'
+    'address address';
+
+}
+nav{
+    grid-area: nav;
+    background: #D9D9D9;
+
+}
+main{
+    grid-area: main;
+    background: #A4A4A4;
+
+}
+.top-aside{
+    grid-area: top-aside;
+    background: #7F7A7A;
+
+}
+.bottom-aside{
+    grid-area: bottom-aside;
+    background: #615050;
+
+}
+footer{
+    grid-area: footer;
+    background: #D9D9D9;
+
+}
+address{
+    grid-area: address;
+    background: #AFA9A9;
+
+}
