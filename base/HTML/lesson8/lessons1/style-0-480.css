@@ -1,0 +1,24 @@
+@media screen and (max-width: 480px) {
+
+
+    .circle-left, .circle-right {
+        display: none;
+    }
+
+    .page-not-found h1 {
+
+        font-size: 180px;
+    }
+    .page-not-found h3{
+        margin: 16px 0 8px 0;
+    }
+    .page-not-found p{
+        width: 100%;
+    }
+    .page-not-found div{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 24px;
+    }
+}

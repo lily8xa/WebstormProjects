@@ -1,0 +1,89 @@
+body{
+    overflow: hidden;
+    font-family: Inter, sans-serif;
+}
+.wrapper-main{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle-left{
+    width: 396px;
+    height: 396px;
+    border-radius: 50%;
+    border: 48px solid purple;
+    opacity: 0.5;
+    position: absolute;
+    top: -200px;
+    left: -210px;
+}
+.circle-right{
+    width: 396px;
+    height: 396px;
+    border-radius: 50%;
+    border: 48px solid purple;
+    opacity: 0.5;
+    position: absolute;
+    right: -120px;
+    top:-20px;
+}
+.page-not-found h1{
+    color: white;
+    font-size: 180px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.page-not-found h3{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.25px;
+    text-align: center;
+    margin: 0 0 25px 0;
+
+}
+.page-not-found p{
+    color: white;
+    width: 533px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+}
+.page-not-found div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:48px;
+    margin: 40px 0 0 0;
+
+}
+.page-not-found div button:nth-child(1){
+    height: 64px;
+    width: 240px;
+    background: #5656ed;
+    border-radius: 32px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+.page-not-found div button:nth-child(2){
+    height: 64px;
+    width: 240px;
+    background: #ffffff;
+    border-radius: 32px;
+    color: #0d0d32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
