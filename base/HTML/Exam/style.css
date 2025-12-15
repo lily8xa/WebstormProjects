@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+.w-1440{
+    width: 1440px;
+    margin: 0 auto;
+    font-family:"Plus Jakarta Sans", sans-serif;
+}
+.w-1252{
+    /*width: 1252px;*/
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 86px;
+    width: 1440px;
+    background: #EFF0F3;
+    position: fixed;
+    top: 0;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 194px;
+    margin: 26px 0 0 95px;
+}
+.logo h3{
+    font-weight: 600;
+    font-size: 36px;
+    color: #001858;
+}
+.logo p{
+    font-weight: 700;
+    font-size: 18px;
+    color: blue;
+    margin-top:15px;
+}
+nav div{
+    display: flex;
+    margin-top: 22px;
+    gap:50px;
+    width: 756px;
+    height: 44px;
+    margin-right: 95px;
+
+}
+nav div ul{
+    display: flex;
+    gap:50px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+
+
+
+}
+nav div ul li a{
+    color: black;
+}
+nav button{
+    border-radius: 4px;
+    border: none;
+    padding: 10px 17px;
+    width: 213px;
+    height: 44px;
+    background: blue;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+
+}
+nav button a{
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+    background: #EFF0F3;
+}
+main h1{
+    width: 617px;
+    height: 162px;
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: capitalize;
+
+
+}
+main p{
+    width: 652px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #9A9494;
+    border-left: 3px solid black;
+    padding-left: 10px;
+
+
+}
