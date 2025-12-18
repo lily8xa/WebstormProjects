@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+.w-1440{
+    width: 1440px;
+    margin: 0 auto;
+    font-family:"Plus Jakarta Sans", sans-serif;
+}
+.w-1252{
+    /*width: 1252px;*/
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 86px;
+    width: 1440px;
+    background: #EFF0F3;
+    position: fixed;
+    top: 0;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 194px;
+    margin: 26px 0 0 95px;
+}
+.logo h3{
+    font-weight: 600;
+    font-size: 36px;
+    color: #001858;
+}
+.logo p{
+    font-weight: 700;
+    font-size: 18px;
+    color: blue;
+    margin-top:15px;
+}
+nav div{
+    display: flex;
+    margin-top: 22px;
+    gap:50px;
+    width: 756px;
+    height: 44px;
+    margin-right: 95px;
+
+}
+nav div ul{
+    display: flex;
+    gap:50px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+
+
+
+}
+nav div ul li a{
+    color: black;
+}
+nav button{
+    border-radius: 4px;
+    border: none;
+    padding: 10px 17px;
+    width: 213px;
+    height: 44px;
+    background: #6246EA;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+
+}
+nav button a{
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+    background: #EFF0F3;
+
+}
+.main-sent{
+    margin-left: 94px;
+}
+main img{
+    margin-right: 94px;
+}
+.main-h1{
+    width: 617px;
+    height: 162px;
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+
+
+}
+.main-p{
+    width: 652px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #9A9494;
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-bottom: 30px;
+
+}
+input[type=email]{
+    border-radius: 8px;
+    padding: 21px 200px 21px 25px;
+    width: 444px;
+    height: 67px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: gray;
+}
+input[type=email]::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.5);
+}
+input[type=submit]{
+    border-radius: 8px;
+    padding: 20px 23px 19px;
+    width: 145px;
+    height: 67px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    background: #6246EA;
+    border: none;
+    margin-left: 20px;
+
+}
+.category_card{
+    width: 1440px;
+    height: 500px;
+    background: #EFF0F3;
+
+}
+.category_card img{
+    margin: 0;
+}
+.main-category img{
+    padding-left: 10px;
+}
+.main-category{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 94px;
+    padding-top: 80px;
+
+}
+.main-category h3{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.main-category a{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+}
+.card{
+    border-radius: 8px;
+    width: 220px;
+    height: 280px;
+    background: #FFFFFE;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:30px;
+    margin-top: 50px;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    transition: 0.5s;
+}
+.card:hover{
+    background:#6246EA;
+    color: white;
+    transition: 1s;
+}
+.main-card p{
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 30px;
+}
+.main-card img{
+    margin-left: 30px;
+}
+.article-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    padding-top: 30px;
+
+}
+.article{
+    border-radius: 12px;
+    padding: 25px 18px;
+    width: 300px;
+    height: 425px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.article:hover{
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    transition: 0.5s;
+
+}
+.art-name{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.author div :nth-child(1){
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.author div :nth-child(2) {
+    font-weight: 400;
+    font-size: 14px;
+}
+.article-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:224px;
+}
+.article-button button{
+    width: 165px;
+    height: 64px;
+    border-radius: 8px;
+    padding: 20px 23px 19px;
+    background: #6246EA;
+    font-weight: 700;
+    font-size: 20px;
+    color:white;
+}
+.subscribe{
+    width: 1440px;
+    height: 453px;
+    background: #EFF0F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+}
+.subscribe h2{
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.subscribe p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #C0C0C0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:95px;
+    padding-top: 70px;
+    height: 365px;
+    background: #E4E5E9;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    height: 30px;
+}
+.footer-logo img{
+    height: 24px;
+    width: 24px;
+}
+.footer-logo img:nth-child(1){
+    width: 30px;
+    height: 30px;
+    padding-top: 0;
+}
+.main-footer-logo{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-right: 65px;
+}
+.main-footer-logo p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer-nav h3{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.footer-nav p{
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.last{
+    height: 70px;
+    background: #E4E5E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:25px;
+}
+.last hr{
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    width: 1250px;
+}
+.last p{
+    font-weight: 400;
+    font-size: 14px;
+    align-self: flex-start;
+    margin-left: 95px;
+}
